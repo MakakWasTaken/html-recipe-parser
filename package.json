@@ -18,11 +18,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/humanize-duration": "^3.27.4",
     "ts-node": "^10.8.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@types/humanize-duration": "^3.27.4",
     "@types/node-fetch": "^2.6.2",
     "humanize-duration": "^3.27.2",
     "node-fetch": "^2.6.6",

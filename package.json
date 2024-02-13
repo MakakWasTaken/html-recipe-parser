@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/humanize-duration": "^3.27.1",
+    "@types/humanize-duration": "^3.27.4",
     "ts-node": "^10.8.1",
     "typescript": "^5.3.3"
   },

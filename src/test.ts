@@ -7,9 +7,9 @@
 import { parseURL } from ".";
 
 async function test() {
-  const url = "https://www.onceuponachef.com/recipes/perfect-pound-cake.html";
-  const result = await parseURL(url);
-  console.log(result);
+	const url = "https://www.allrecipes.com/recipe/278700/crawfish-beignets/";
+	const result = await parseURL(url);
+	console.log(result);
 }
 
 test();

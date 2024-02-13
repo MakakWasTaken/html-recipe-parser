@@ -48,7 +48,7 @@ type Recipe = {
   cookTime?: string;
   totalTime?: string;
   keywords?: string[];
-  yeld?: string;
+  yield?: string;
   rating?: number;
   nutrition?: {
     calories?: string;

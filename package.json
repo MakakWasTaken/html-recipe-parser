@@ -6,7 +6,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "ts-node test.ts",
+    "test": "ts-node ./src/test.ts",
+    "postinstall": "npm run build",
     "npm-publish": "tsc && npm version patch && npm publish"
   },
   "author": "Murilo Schünke",

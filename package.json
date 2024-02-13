@@ -4,6 +4,9 @@
   "description": "Parse recipes from web pages using schema.org/recipe metadata",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "build": "npx tsc",
     "test": "ts-node ./src/test.ts",

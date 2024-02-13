@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc",
     "test": "ts-node ./src/test.ts",
     "postinstall": "npm run build",
     "npm-publish": "tsc && npm version patch && npm publish"

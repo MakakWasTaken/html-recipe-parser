@@ -8,7 +8,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc src/**/*.ts",
     "test": "ts-node ./src/test.ts",
     "postinstall": "npm run build",
     "npm-publish": "tsc && npm version patch && npm publish"
